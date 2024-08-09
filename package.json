@@ -7,6 +7,9 @@
   "homepage": "https://github.com/cuiqg/utils#readme",
   "repository": "github:cuiqg/utils",
   "author": "Tsuiqg <i@tsuiqg.me>",
+  "files": [
+    "dist"
+  ],
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "exports": {
@@ -23,7 +26,8 @@
     "build": "tsup",
     "dev": "tsup --watch",
     "lint": "eslint .",
-    "release": "bumpp && npm publish"
+    "release": "bumpp && npm publish",
+    "prepublishOnly": "npm run build"
   },
   "dependencies": {
     "clsx": "^2.1.1",
