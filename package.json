@@ -5,10 +5,7 @@
   "type": "module",
   "license": "Unlicense",
   "homepage": "https://github.com/cuiqg/utils#readme",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cuiqg/utils.git"
-  },
+  "repository": "github:cuiqg/utils",
   "author": "Tsuiqg <i@tsuiqg.me>",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
