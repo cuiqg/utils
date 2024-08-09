@@ -23,7 +23,7 @@
     "build": "tsup",
     "dev": "tsup --watch",
     "lint": "eslint .",
-    "release": "bumpp && pnpm publish"
+    "release": "bumpp && npm publish"
   },
   "dependencies": {
     "clsx": "^2.1.1",
